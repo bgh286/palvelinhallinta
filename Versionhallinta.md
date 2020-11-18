@@ -37,3 +37,16 @@ vlc_install:
     - pkgs:
       - vlc
 ```
+
+Kun sain asennettua VLC:n Saltin kautta, siirryin muokkaamaan konfiguraatio tiedostoa, joka sijaitsee /home/KÄYTTÄJÄ/.config/vlc/vlcrc.
+Lisäsin .sls tiedostoon alla olevan pätkän.
+```
+/home/robin/.config/vlc/vlcrc:
+  file.managed:
+    - source: salt://vlc/vlcrc
+```
+Muokkasin vlcrc konfiguraatio tiedostoa alla olevalla tavalla sekä ajoin alla näkyvän komennon.
+```
+sudo salt '*' state.apply vlc
+```
+![VLC config](https://raw.githubusercontent.com/bgh286/palvelinhallinta/main/vlc_custom.PNG)
