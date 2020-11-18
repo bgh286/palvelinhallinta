@@ -21,3 +21,7 @@ Git diff komento vertailee kahta asiaa toisiinsa esim. kahta eri tiedostoa ja ke
 Git blame komento kertoo kuka ja milloin on tehty muutoksia millekin riville
 
 ![Git Blame](https://raw.githubusercontent.com/bgh286/palvelinhallinta/main/git_blame.PNG)
+
+### Git reset --hard
+Tein muutoksia Testikommitteja tiedostoon, jonka jälkeen käytin git reset --hard komentoa jolla palasin aiempaan versioon tiedostosta.
+![Git reset](https://raw.githubusercontent.com/bgh286/palvelinhallinta/main/git_reset.PNG)
