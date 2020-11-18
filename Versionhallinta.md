@@ -15,7 +15,7 @@ Git log komento näyttää listan tehdyistä commiteista, joista uusin näkyy en
 ### Git diff
 Git diff komento vertailee kahta asiaa toisiinsa esim. kahta eri tiedostoa ja kertoo miten ne eroavat toisistaan
 
-![Git diff] (git_diff.png)
+![Git diff] (https://raw.githubusercontent.com/bgh286/palvelinhallinta/main/git_diff.PNG)
 
 ### Git blame
 Git blame komento kertoo kuka ja milloin on tehty muutoksia millekin riville
