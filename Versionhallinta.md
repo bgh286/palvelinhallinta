@@ -24,4 +24,16 @@ Git blame komento kertoo kuka ja milloin on tehty muutoksia millekin riville
 
 ### Git reset --hard
 Tein muutoksia Testikommitteja tiedostoon, jonka jälkeen käytin git reset --hard komentoa jolla palasin aiempaan versioon tiedostosta.
+
 ![Git reset](https://raw.githubusercontent.com/bgh286/palvelinhallinta/main/git_reset.PNG)
+
+## Uusi Salt-moduli
+
+Aloitin uuden Salt-modulin luomisen tuttuun tapaan testaamalla ensin hello world testillä. Testin onnistuttua siirryin asentamaan VLC-ohjelmaa Saltin kautta.
+
+```
+vlc_install:
+  pkg.installed:
+    - pkgs:
+      - vlc
+```
